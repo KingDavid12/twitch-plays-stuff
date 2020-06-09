@@ -54,21 +54,21 @@ let handleChatMessage (mapping: Map<string, Mapping.Handler[]>) (message: string
         // Left stick
         match state.LeftStickX with
         | Some value ->
-            controller.LeftStickX <- short value
+            controller.LeftStickX <- short (value * 327)
         | None -> ()
         match state.LeftStickY with
         | Some value ->
-            controller.LeftStickY <- short value
+            controller.LeftStickY <- short (value * 327)
         | None -> ()
 
         // Right stick
         match state.RightStickX with
         | Some value ->
-            controller.RightStickX <- short value
+            controller.RightStickX <- short (value * 327)
         | None -> ()
         match state.RightStickY with
         | Some value ->
-            controller.RightStickY <- short value
+            controller.RightStickY <- short (value * 327)
         | None -> ()
 
         // Triggers
