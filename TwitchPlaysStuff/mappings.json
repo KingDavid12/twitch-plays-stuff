@@ -1,0 +1,74 @@
+﻿[
+    {
+        "messages": [ "w" ],
+        "handler": {
+            "before": {
+                "leftStickY": 100
+            },
+            "after": {
+                "leftStickY": 0
+            }
+        }
+    },
+    {
+        "messages": [ "a" ],
+        "handler": {
+            "before": {
+                "leftStickX": -100
+            },
+            "after": {
+                "leftStickX": 0
+            }
+        }
+    },
+    {
+        "messages": [ "s" ],
+        "handler": {
+            "before": {
+                "leftStickY": -100
+            },
+            "after": {
+                "leftStickY": 0
+            }
+        }
+    },
+    {
+        "messages": [ "d" ],
+        "handler": {
+            "before": {
+                "leftStickX": 100
+            },
+            "after": {
+                "leftStickX": 0
+            }
+        }
+    },
+
+    {
+        "messages": [ "example 1" ],
+        "handler": {
+            "before": { "leftTrigger": true }
+        }
+    },
+    {
+        "messages": [ "example 2" ],
+        "handler": {
+            "before": {
+                "leftStickX": -37,
+                "leftStickY": 10,
+                "rightStickX": 50,
+                "rightStickY": 19,
+                "leftTrigger": false,
+                "rightTrigger": true
+            },
+            "after": {
+                "leftStickX": 0,
+                "leftStickY": 0,
+                "rightStickX": 0,
+                "rightStickY": 0,
+                "leftTrigger": true,
+                "rightTrigger": false
+            }
+        }
+    }
+]
