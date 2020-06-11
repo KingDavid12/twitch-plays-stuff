@@ -1,9 +1,9 @@
 ﻿{
-    "username": "twitch_username",
-    "access_token": "access_token",
+    "username": "verissium",
+    "access_token": "oauth:qks1drbs8mus7dap2yie6pbzjd40sb",
     "throtteling": {
         "messagesAllowedInPeriod": 750,
         "periodInSeconds": 30
     },
-    "channel":  "twitch_channel"
+    "channel": "verissium"
 }

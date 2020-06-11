@@ -36,10 +36,44 @@
         "messages": [ "d" ],
         "handler": {
             "before": {
-                "leftStickX": 100
+                "leftStickX": 100,
+                "leftTrigger": 23,
+                "rightTrigger": 255,
+                "a": true,
+                "b": true,
+                "back": true,
+                "start": true,
+                "up": true,
+                "down": true,
+                "left": true,
+                "right": true,
+                "leftBumper": true,
+                "rightBumper": true,
+                "x": true,
+                "y": true,
+                "logo": true,
+                "leftStick": true,
+                "rightStick": true
             },
             "after": {
-                "leftStickX": 0
+                "leftStickX": 100,
+                "leftTrigger": 23,
+                "rightTrigger": 255,
+                "a": true,
+                "b": true,
+                "back": true,
+                "start": true,
+                "up": true,
+                "down": true,
+                "left": true,
+                "right": true,
+                "leftBumper": true,
+                "rightBumper": true,
+                "x": true,
+                "y": true,
+                "logo": true,
+                "leftStick": true,
+                "rightStick": true
             }
         }
     },
@@ -68,7 +102,8 @@
                 "rightStickY": 0,
                 "leftTrigger": true,
                 "rightTrigger": false
-            }
+            },
+            "holdFor": 1000
         }
     }
 ]
